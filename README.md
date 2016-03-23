@@ -1,4 +1,4 @@
-HAP-NodeJS
+Cloudino-HAP based on HAP-NodeJS
 ==========
 
 HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server.
