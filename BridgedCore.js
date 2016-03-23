@@ -6,17 +6,17 @@ var Bridge = require('./').Bridge;
 var Accessory = require('./').Accessory;
 var accessoryLoader = require('./lib/AccessoryLoader');
 
-console.log("HAP-NodeJS starting...");
+console.log("HAP-Cloudino starting...");
 
 // Initialize our storage system
 storage.initSync();
 
 // Start by creating our Bridge which will host all loaded Accessories
-var bridge = new Bridge('Node Bridge', uuid.generate("Node Bridge"));
+var bridge = new Bridge('Cloudino', uuid.generate("Cloudino"));
 
 // Listen for bridge identification event
 bridge.on('identify', function(paired, callback) {
-  console.log("Node Bridge identify");
+  console.log("Cloudino identify");
   callback(); // success
 });
 

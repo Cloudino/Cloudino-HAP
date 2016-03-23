@@ -1,6 +1,6 @@
 {
   "name": "hap-nodejs",
-  "version": "0.2.8",
+  "version": "0.2.7",
   "description": "HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server.",
   "main": "index.js",
   "dependencies": {
@@ -9,7 +9,8 @@
     "ed25519": "git://github.com/KhaosT/ed25519",
     "mdns": "git://github.com/KhaosT/node_mdns",
     "node-persist": "^0.0.8",
-    "srp": "git://github.com/KhaosT/node-srp"
+    "srp": "git://github.com/KhaosT/node-srp",
+    "websocket": "^1.0.22"
   },
   "devDependencies": {
     "simple-plist": "0.0.4"
