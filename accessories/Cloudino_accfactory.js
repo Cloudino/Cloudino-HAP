@@ -3,7 +3,7 @@ var Service = require('../').Service;
 var Characteristic = require('../').Characteristic;
 var uuid = require('../').uuid;
 
-var server="ws://cloudino.io/websocket/user";
+var server="ws://cloudino.cc/websocket/user";
 var email="<email>";
 var password="<password>";
 var devices = [
